@@ -1,13 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Memory Game</title>
-  <link rel="stylesheet" href="style.css" type="text/css">
+  <meta charset="UTF-8"/>
+  <title>Memory Game!</title>
+  <link rel="stylesheet" href="/memory-game/style.css"/>
 </head>
 <body>
-  <h1>hi</h1>
+
+<h1>Memory Game!</h1>
+
+<h3>Let's test your memory! Click on a card and try to find its matching pair!
+  If two cards you clicked on do not match, they will flip back over. Click on
+  any card to begin! Good luck!
+</h3>
+
+<div id="end">
+  <h2>
+    Congratulations!!! You Won! Play Again?
+  </h2>
+  <button>Reset</button>
+</div>
+
+<div id="game">
+  <div data-flipped="false" data-matched="false"></div>
+  <div data-flipped="false" data-matched="false"></div>
+  <div data-flipped="false" data-matched="false"></div>
+  <div data-flipped="false" data-matched="false"></div>
+  <div data-flipped="false" data-matched="false"></div>
+  <div data-flipped="false" data-matched="false"></div>
+  <div data-flipped="false" data-matched="false"></div>
+  <div data-flipped="false" data-matched="false"></div>
+  <div data-flipped="false" data-matched="false"></div>
+  <div data-flipped="false" data-matched="false"></div>
+</div>
+
+<script src="/memory-game/script.js"></script>
+
 </body>
 </html>
